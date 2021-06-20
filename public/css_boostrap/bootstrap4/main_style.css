@@ -1,0 +1,714 @@
+* {
+
+  font-family: 'Varela', sans-serif !important;
+  text-align: justify;
+}
+
+.navbar-brand{
+    background-color: #ffffff;
+}
+
+.topbar{
+    height: auto;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.topbar p{
+    font-weight: bold;
+}
+.lol2{
+  background-image: url("../image/soeara_merdeka.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+i.fa{
+  font-family: FontAwesome !important;
+}
+
+
+.lol{
+    background-image: url("../../img/yUaS62.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.videosection{
+    background-image: url("../../img/ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 85%;
+}
+
+.fasilitas{
+    background-image: url("../../img/fasilitas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 5rem !important;
+}
+.jaringan{
+    background-image: url("../../img/jaringan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 5rem !important;
+}
+
+.liputan{
+    background-image: url("../../img/jaringan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 1rem !important;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 1px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+.topbar li a {
+    display: block;
+    color:#474646;
+    height:100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.topbar li a:hover {
+    color: #33B6FF;
+    transition-duration: 0.3s;
+}
+
+
+.dropdown-item a{
+  color: #474646 !important;
+}
+
+.active a {
+    color:#33B6FF !important;
+}
+
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.media-my {
+    background-color: #EFEFEF;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container {
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row {
+  padding: 0px 15px;
+  margin-top: 7px;
+}
+
+.row .news {
+  background-color:#474646;
+  color: #EFEFEF;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: right;
+  width: 24.156%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.col-3 li {
+  border-bottom-style: solid !important;
+  border-bottom-color: #BABABA !important;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 14;
+  color: #2573A7 ;
+}
+
+.col-3 li a {
+  color: #2573A7 ;
+}
+
+.note {
+  padding: 60px;
+  background-color: #33B6FF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center !important;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gallery {
+  background-color: #474646;
+  color: #FFFFFF;
+}
+.galleryanim{
+  transition-duration: .5s;
+  overflow: hidden;
+}
+.galleryanim:hover{
+  transform: scale(1.02);
+}
+/* ini unutk gamabar */
+.img1{
+  width: 500px;
+  height: 167px;
+  object-fit: cover;
+}
+
+.img2{
+  width: 500px;
+  height: 425px;
+  object-fit: cover;
+}
+.img3{
+  width: 500px;
+  height: 258px;
+  object-fit: cover;
+}
+.img4{
+  width: 500px;
+  height: 136px;
+  object-fit: cover;
+}
+
+.imgal1{
+  width: 500px;
+  height: 357px;
+  object-fit: cover;
+  display: block;
+  /* width: 100%;
+  height: auto; */
+
+}
+.imgal1:hover{
+  width: 500px;
+  height: 357px;
+  object-fit: cover;
+  filter: blur(8px);
+
+}
+
+/* ulululululululullululululul */
+.contain {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #35353577 !important;
+}
+
+.contain:hover .overlay {
+  opacity: 1;
+}
+.contain:hover .imgal1 {
+  filter: blur(3px);
+}
+
+.poptext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* leleleleleelellelelelelelelelelelele */
+.imgal2{
+  width: 500px;
+  height: 740px;
+  object-fit: cover;
+}
+
+.header {
+  text-align: center !important;
+}
+
+.gallery hr {
+  border: 2px solid white;
+}
+
+.gallery .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery .column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+}
+
+.gallery .column img {
+  margin-top: 25px;
+  vertical-align: middle;
+  width: 100%;
+  border: 7px solid white;
+}
+
+.gallery a {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center !important;
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+}
+
+.gallery a:hover {
+  color: #33B6FF;
+}
+
+.tautan {
+  padding-top: 125px;
+  padding-bottom: 250px;
+}
+
+.tautan hr {
+  border: 3px solid #33B6FF;
+}
+
+.tautan .column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+}
+
+.tautan .column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  height: 75px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.footer {
+  background-color: #474646;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+color: #FFFFFF;
+}
+
+.footer h5 {
+  color: #EFEFEF;
+  font-weight: bold;
+}
+
+.footer hr {
+  border: 3px solid #33B6FF;
+  margin-left: 0px;
+}
+
+.footer ul {
+  padding: 15px;
+}
+
+.footer a {
+  color: #EFEFEF;
+}
+
+.footer a:hover {
+  color: #33B6FF;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.profil {
+  padding-top: 125px;
+  padding-bottom: 250px;
+  color: #474646;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+  font-size: 21.5px;
+}
+
+.profil h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #474646;
+}
+
+.berita li {
+  padding-top: 15px;
+  border-bottom-style: solid !important;
+  border-bottom: 1px solid #BABABA !important;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  color: #474646;
+}
+
+.berita li:hover {
+  color: #33B6FF;
+}
+
+.berita .link a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration-line: underline;
+
+  color: #474646;
+}
+
+.berita .link a:hover {
+  color: #33B6FF;
+}
+
+.berita .link a:active {
+  color: #33B6FF;
+}
+
+.btn-primary {
+  background-color: #33B6FF !important;
+  border-color: #33B6FF !important;
+  color: #EFEFEF !important;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #474646 !important;
+  border-color: #474646 !important;
+  color: #EFEFEF !important;
+  font-weight: bold;
+}
+
+.berita-utama .column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+}
+
+.berita-utama a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.berita-utama a:hover {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  text-decoration-line: none;
+}
+
+.utama .column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 10px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.terbaru .column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+}
+
+.terbaru a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.terbaru a:hover {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  text-decoration-line: none;
+}
+
+
+
+.galerif .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.galerif .column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+}
+
+
+.galerif .column img {
+  margin-top: 25px;
+  vertical-align: middle;
+  width: 100%;
+  border: 7px solid white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.galerif .column img .imgal1:hover{
+  margin-top: 25px;
+  vertical-align: middle;
+  width: 100%;
+  border: 7px solid white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+
+.pagination {
+  margin: auto;
+  width: 8%;
+}
+
+.dot {
+  margin: 3px;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border: 2px solid #33B6FF;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color .3s;
+}
+
+.pagination .dot.active {
+  background-color: #33B6FF;
+}
+
+.pagination .dot:hover:not(.active) {
+  background-color: #33B6FF}
+
+.top__section {
+  color: white;
+  font-size: 20px;
+}
+
+
+.content__section {
+  grid-area: content__section;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-areas:
+  ". playlist__one ."
+  ". playlist__two .";
+  margin-bottom: 60px;
+}
+
+.playlist__one {
+  grid-area: playlist__one;
+}
+
+.playlist__two {
+  grid-area: playlist__two;
+}
+
+.playlist__title {
+  margin: 30px 0;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.videob {
+  height: 180px;
+  grid-column-start: span 3;
+  position: relative;
+  transition: var(--ease);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.videob:hover {
+  transform: scale(1.02);
+}
+
+.videob i {
+  cursor: pointer;
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--light);
+  opacity: 0.85;
+  transition: var(--ease);
+}
+
+.videob i:hover {
+  opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .videob {
+      grid-column-start: span 6;
+      height: 240px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .videob {
+      grid-column-start: span 12;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .gallery .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+
+
+  @media screen and (max-width: 800px) {
+    .galerif .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .galerif .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+}

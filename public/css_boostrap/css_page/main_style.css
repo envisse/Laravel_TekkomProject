@@ -1,0 +1,401 @@
+* {
+  font-family: Open Sans !important;
+  text-align: justify;
+}
+
+.navbar-brand{
+    background-color: #ffffff;
+}
+
+.topbar{
+    height: auto;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.topbar p
+{
+    font-size: 1px;
+    font-weight: bold !important;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 1px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+.topbar li a {
+    display: block;
+    color:#474646;
+    height:100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.topbar li a:hover {
+    color: #33B6FF;
+    transition-duration: 0.3s;
+}
+
+.active a {
+    color:#33B6FF !important;
+}
+
+.media-my {
+    background-color: #EFEFEF;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container {
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row {
+  padding: 0px 15px;
+  margin-top: 7px;
+}
+
+.row .news {
+  background-color:#474646;
+  color: #EFEFEF;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: right;
+  width: 24.156%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.col-3 li {
+  border-bottom-style: solid !important;
+  border-bottom-color: #BABABA !important;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 14;
+  color: #2573A7 ;
+}
+
+.col-3 li a {
+  color: #2573A7 ;
+}
+
+.note {
+  padding: 60px;
+  background-color: #33B6FF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center !important;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gallery {
+  background-color: #474646;
+  color: #FFFFFF;
+}
+
+.header {
+  text-align: center !important;
+}
+
+.gallery hr {
+  border: 2px solid white;
+}
+
+.gallery .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery .column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+}
+
+.gallery .column img {
+  margin-top: 25px;
+  vertical-align: middle;
+  width: 100%;
+  border: 7px solid white;
+}
+
+.gallery a {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center !important;
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+}
+
+.gallery a:hover {
+  color: #24B1FF;
+}
+
+.tautan {
+  padding-top: 125px;
+  padding-bottom: 250px;
+}
+
+.tautan hr {
+  border: 3px solid #33B6FF;
+}
+
+.tautan .column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+}
+
+.tautan .column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  height: 75px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.footer {
+  background-color: #474646;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+color: #FFFFFF;
+}
+
+.footer h5 {
+  color: #EFEFEF;
+  font-weight: bold;
+}
+
+.footer hr {
+  border: 3px solid #33B6FF;
+  margin-left: 0px;
+}
+
+.footer ul {
+  padding: 15px;
+}
+
+.footer a {
+  color: #EFEFEF;
+}
+
+.footer a:hover {
+  color: #33B6FF;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.profil {
+  padding-top: 125px;
+  padding-bottom: 250px;
+  color: #474646;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+  font-size: 21.5px;
+}
+
+.berita li {
+  padding-top: 15px;
+  border-bottom-style: solid !important;
+  border-bottom: 1px solid #BABABA !important;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  color: #474646;
+}
+
+.berita li:hover {
+  color: #33B6FF;
+}
+
+.berita .link a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration-line: underline;
+
+  color: #474646;
+}
+
+.berita .link a:hover {
+  color: #33B6FF;
+}
+
+.berita .link a:active {
+  color: #33B6FF;
+}
+
+.btn-primary {
+  background-color: #33B6FF !important;
+  border-color: #33B6FF !important;
+  color: #EFEFEF !important;
+}
+
+.btn-primary:hover {
+  background-color: #474646 !important;
+  border-color: #474646 !important;
+  color: #EFEFEF !important;
+}
+
+.berita-utama .column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+}
+
+.berita-utama a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.berita-utama a:hover {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  text-decoration-line: none;
+}
+
+.utama .column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 10px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.terbaru .column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+}
+
+.terbaru a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.terbaru a:hover {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  text-decoration-line: none;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .gallery .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
